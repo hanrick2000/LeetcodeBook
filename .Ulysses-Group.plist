@@ -31,27 +31,33 @@
 				<key>explicitUnassignment</key>
 				<true/>
 				<key>firstUnassignment</key>
-				<real>503039787.64766598</real>
+				<real>503040684.03650802</real>
 				<key>lastModification</key>
-				<real>503039787.64766598</real>
+				<real>503040684.03650802</real>
 				<key>version</key>
 				<dict>
 					<key>A5927A8C-B520-4091-B981-73F7B1EE37B4</key>
-					<integer>6</integer>
+					<integer>15</integer>
 				</dict>
 			</dict>
 		</dict>
+		<key>sheetOrder</key>
+		<real>503040368.10167599</real>
 	</dict>
 	<key>sheetClusters</key>
 	<array>
 		<array>
 			<string>Summary.md</string>
-			<string>Untitled.md</string>
 		</array>
 		<array>
 			<string>README.md</string>
 		</array>
+		<array>
+			<string>Untitled.md</string>
+		</array>
 	</array>
+	<key>sheetOrder</key>
+	<string>manual</string>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
 	<key>versioning</key>
@@ -59,7 +65,12 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>A5927A8C-B520-4091-B981-73F7B1EE37B4</key>
-			<integer>6</integer>
+			<integer>15</integer>
+		</dict>
+		<key>sheetOrder</key>
+		<dict>
+			<key>A5927A8C-B520-4091-B981-73F7B1EE37B4</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>

@@ -3,6 +3,6 @@
 
 ### Array
 * [Overview](Array/array.md)
-    * [BinarySearch](Array/BinarySearch/root.md)
+    * [BinarySearch](Array/BinarySearch/binarysearch.md)
 
 ### Tree

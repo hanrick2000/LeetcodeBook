@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](array.md)
-    * asdfasdf
-        * asdfas
+* [First Chapter](/Array/array.md)
 
 

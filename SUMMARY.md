@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](/Array/array.md)
-
+* [Array](/Array/root.md)
+    * [BinarySearch](/root.md)
+        * [test](/test.md)
 

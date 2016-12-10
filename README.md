@@ -1,3 +1,5 @@
-# My Awesome Book
+# My Leetcode Book
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This file serves as a leetcode solution manual. For every level, there is a root directory which provides a list of links to its children.  
+
+The first character of all the directory names are uppercase, and those of files' are lowercase.

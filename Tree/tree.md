@@ -2,7 +2,7 @@
 * Preorder, inorder and postorder are all using DFS. And BFS is just level order traversal, which will print nodes level by level. And it can only be implemented by iterative approach using Queue. 
 
 #### Recursion
-* Preorder
+#### Preorder
 
 root  
 helper(root.left)  
@@ -13,7 +13,7 @@ helper(root.right)
 helper(root.left)  
 root  
 helper(root.right)  
-[inorder](Tree/Traversal/inorder.md)
+[Question](Tree/Traversal/inorder.md)
 
 * Postorder
 

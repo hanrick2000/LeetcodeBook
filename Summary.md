@@ -9,7 +9,7 @@
 
 ### Tree
 * [Overview](Tree/tree.md)
-    * [Traversal](Tree/Traversal/inorder.md)
+    * [inorder](Tree/Traversal/inorder.md)
 
 
 

@@ -6,7 +6,7 @@ Three types of traversal:
 
 * __Preorder__: root, root.left, root.right
 
-* [__Inorder__](Tree/Traversal/inorder.md): root.left, root, root.right
+* [__Inorder__](Traversal/inorder.md): root.left, root, root.right
 
 * __Postorder__: root.left, root.right, root
 

@@ -15,6 +15,12 @@ Space: O(1)
 
 * Recursion
 
+```java
+public static void main(String[] args) {
+    hehehe
+}
+```
+
 * Iterative
 
 ```java

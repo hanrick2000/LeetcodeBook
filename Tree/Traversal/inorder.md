@@ -15,10 +15,12 @@ Space: O(1)
 
 * Recursion
 
-```java
-public static void main(String[] args) {
-    hehehe
-}
+```python
+def greet(name):
+    print 'Hello', name
+greet('Jack')
+greet('Jill')
+greet('Bob')
 ```
 
 * Iterative

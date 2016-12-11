@@ -1,3 +1,10 @@
 {
-    "plugins": ["-highlight", "prism", "prism-ASH"]
+    "plugins": ["-highlight", "prism"],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "syntax-highlighting/assets/css/prism/prism-xonokai.css"
+            ]
+        }
+    }
 }

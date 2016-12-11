@@ -1,30 +1,19 @@
 ### Traversal 
-* Preorder, inorder and postorder are all using DFS. And BFS is just level order traversal, which will print nodes level by level. And it can only be implemented by iterative approach using Queue. 
+Preorder, inorder and postorder are all using DFS. And BFS is just level order traversal, which will print nodes level by level. And it can only be implemented by iterative approach using Queue. 
 
 #### Recursion
-#### Preorder
+Three types of traversal:  
 
-root  
-helper(root.left)  
-helper(root.right)
+* __Preorder__: root, root.left, root.right
 
-* Inorder 
+* [__Inorder__](Tree/Traversal/inorder.md): root.left, root, root.right
 
-helper(root.left)  
-root  
-helper(root.right)  
-[Question](Tree/Traversal/inorder.md)
-
-* Postorder
-
-helper(root.left)  
-helper(root.right)  
-root
+* __Postorder__: root.left, root.right, root
 
 #### Iterative
-* Stack
+* Stack: 
 
-Exchange the order of left and right subtree will only change the order of output. Change the order of root, left, and right will change the order category of output.
+Exchange the order of left and right subtree will only change the order of output. Change the order of root, left, and right will change the order category of output. 
 
 The position of `stack.push()` for children and the position of `stack.pop()` for root determine the category of traversal. 
 

@@ -10,8 +10,10 @@
 ### Tree
 * [Overview](Tree/tree.md)
     * [Traversal](Tree/Traversal/traversal.md)
+        * [PreorderTraversal](Tree/Traversal/BinaryTreePreorderTraversal.md)
         * [InorderTraversal](Tree/Traversal/BinaryTreeInorderTraversal.md)
-
+        * [PostorderTraversal](Tree/Traversal/BinaryTreePostorderTraversal.md)
+        * [BFSorderTraversal](Tree/Traversal/BinaryTreeBFSorderTraversal.md)
 
 
 [1]:	README.md

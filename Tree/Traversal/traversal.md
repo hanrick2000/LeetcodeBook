@@ -17,7 +17,7 @@ The position of `stack.push()` for children and the position of `stack.pop()` fo
 Preorder: push root, pop root, push right, push left.  
 Inorder: push root and left, pop root and left, push right, pop right.  
 Postorder: push right and left, pop right and left, push root, pop root.  
-Remeber all the nodes in stack are not empty, so we need to check if the node is empty whenever we want to push a new node into stack.  
+Remeber all the nodes in stack are not empty, so we need to check if the node is empty whenever we want to push a new node into stack.
 
 * [__Queue__](BinaryTreeBFSorderTraversal.md):
 BFS order traversal that will return a single flatten list.

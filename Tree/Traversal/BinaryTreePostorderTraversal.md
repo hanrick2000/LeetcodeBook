@@ -35,7 +35,7 @@ public static void helper(List<Integer> res, TreeNode root) {
 * Iterative
 
 ```java
-public static List<Integer> postorder1(TreeNode root) {
+public static List<Integer> postorder(TreeNode root) {
     List<Integer> res = new ArrayList<>();
     Stack<TreeNode> stack = new Stack<>();
     // 得保留一个之前的node链接, 在回溯时prev就成为root了

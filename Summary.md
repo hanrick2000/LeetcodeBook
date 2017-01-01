@@ -1,6 +1,9 @@
 # Summary
 * [Introduction][1]
 
+### Connection
+* When every recursion may have duplicates, then we can consider dp. 
+
 ### Array
 * [Overview][2]
 	* [BinarySearch][3]
@@ -14,6 +17,13 @@
         * [InorderTraversal](Tree/Traversal/BinaryTreeInorderTraversal.md)
         * [PostorderTraversal](Tree/Traversal/BinaryTreePostorderTraversal.md)
         * [BFSorderTraversal](Tree/Traversal/BinaryTreeBFSorderTraversal.md)
+    * [BST](Tree/BST/bst.md)
+
+### Dp
+* [Overview](Dp/dp.md)
+    * [BestTimeBuySellStock](Dp/BestTimeBuySellStock.md)
+    * [BestTimeBuySellStock2](Dp/BestTimeBuySellStock2.md)
+    * [BestTimeBuySellStock3](Dp/BestTimeBuySellStock3.md)
 
 
 [1]:	README.md

@@ -1,7 +1,7 @@
 #### Question
 Given a binary tree, find all of its path sum. The path is from root to any of leaf nodes.
 #### Examples
-![](https://farm5.staticflickr.com/4186/33545905233_65cb96ec31_o.jpg)
+![](https://farm3.staticflickr.com/2876/34315485026_03a3911c1c_o.png)
 #### Analysis
 Actually this is a question using backtracking. It’s kind of similar to traverse method. But it's different with other path sum problems, we don't decrease sum in every step, instead we keep the sum as same.
 #### Code

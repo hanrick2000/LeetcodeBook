@@ -8,7 +8,7 @@
 	- Put results as __parameters__. 
 	- Sometimes we may add __global variables__. We need global variables if we need to break when we find some node or value, which means we don’t need to check every value in the traverse.
 - Non recursion
-	Use stack or queue.
+	- Use stack or queue.
 ### Concepts
 - Height and depth
 ### Category

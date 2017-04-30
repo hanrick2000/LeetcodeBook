@@ -7,7 +7,7 @@ Given 1,2,0,3, return 4
 #### Analysis
 This question is so hard. The logic is a mess. We need to choose correct result type, otherwise it cannot lead to a solution.
 #### Code
-The following is correct solution. __up__ represents, for current node, the maximum length of consecutive path toward root with increasing order. __down__ represents, for current node, the maximum length of consecutive path toward root with decreasing order.
+ __up__ represents, for current node, the maximum length of consecutive path toward root with increasing order. __down__ represents, for current node, the maximum length of consecutive path toward root with decreasing order.
 
 There are five conditions that may generate a current longest path:
 1. max from left subtree
@@ -59,7 +59,6 @@ private ResultType helper(TreeNode root) {
     return new ResultType(up, down, cur);
 }
 ```
-
 
 The following is a false example which I didn't solve. This one I was using boolean values to represent path direction.
 ```java

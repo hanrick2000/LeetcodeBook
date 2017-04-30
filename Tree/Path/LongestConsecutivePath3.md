@@ -1,7 +1,7 @@
 #### Question
 Given a binary tree, find all of its path sum. The path doesn’t need to start from root and end at leaf. But it has to be straight down.
 #### Examples
-![](https://farm3.staticflickr.com/2929/34193352672_b31cb0f990_o.jpg)
+![](https://farm3.staticflickr.com/2807/33509682064_25fc55d14e_o.jpg)
 #### Analysis
 This is a so typical question. It's quite hard to solve without Path and Path2 questions. Anyway, the key point is to find all conditions that could lead to a longest path.
 #### Code

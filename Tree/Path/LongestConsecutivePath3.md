@@ -25,23 +25,17 @@ private ResultType helper(MultiTreeNode root) {
         return new ResultType(0, 0, 0);
     }
     
-    Map<MultiTreeNode, ResultType> results = new HashMap<>();
-    for (MultiTreeNode child : root.children) {
-        results.put(child, helper(child));
-    }
-    
     int max = 0, up = 0, down = 0;
     for (MultiTreeNode child : root.children) {
+        ResultType res = helper(child);
         if (child != null) {
             if (root.val == child.val + 1) {
-                up = Math.max(up, results.get(child).up + 1);
+                up = Math.max(up, res.up + 1);
             }
             if (root.val == child.val - 1) {
-                down = Math.max(down, results.get(child).down + 1);
+                down = Math.max(down, res.down + 1);
             }
-            if (results.get(child).max > max) {
-                max = results.get(child).max;
-            }
+            max = Math.max(max, res.max);
         }
     }
     int len = up + 1 + down; // 这一句就包含了三种情况

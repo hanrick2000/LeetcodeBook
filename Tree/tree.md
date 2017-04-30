@@ -24,6 +24,7 @@
 ### Experience
 - Don’t use else if when using traverse method! [LowestCommonAncestor2][2]
 - Start analysis from examples first!!! Don't start to write code unless you are confident.
+- We can pass parent node information to child node!
 
 [1]:	Traversal/traversal.md
 [2]:	http://lintcode.com/en/problem/lowest-common-ancestor-ii/

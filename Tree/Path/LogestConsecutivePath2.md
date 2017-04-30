@@ -1,5 +1,5 @@
 #### Question
-Given a binary tree, find all of its path sum. The path doesn’t need to start from root and end at leaf. But it has to be straight down.
+Given a binary tree, find all of its path sum. The path could start and end at any node.
 #### Examples
 Given 1,2,0,1, return 3
 

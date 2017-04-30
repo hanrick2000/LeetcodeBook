@@ -1,5 +1,5 @@
 #### Question
-Given a binary tree, find all of its path sum. The path doesn’t need to start from root and end at leaf. But it has to be straight down.
+Given a k-ary tree, find all of its path sum. The path could start and end at any node.
 #### Examples
 ![](https://farm3.staticflickr.com/2807/33509682064_25fc55d14e_o.jpg)
 #### Analysis

@@ -3,35 +3,28 @@ Given a binary tree, find all of its path sum. The path is from root to any of l
 #### Examples
 ![](https://farm3.staticflickr.com/2876/34315485026_03a3911c1c_o.png)
 #### Analysis
-Actually this is a question using backtracking. It’s kind of similar to traverse method. But it's different with other path sum problems, we don't decrease sum in every step, instead we keep the sum as same.
+The key point is to decide when to add buffer list into result. And we must make sure every node can reach __buffer.remove(buffer.size() - 1)__ except null node. 
 #### Code
 ```java
-public List<List<Integer>> binaryTreePathSum2(TreeNode root, int target) {
+public List<List<Integer>> binaryTreePathSum(TreeNode root, int target) {
     List<List<Integer>> res = new ArrayList<>();
     List<Integer> buffer = new ArrayList<>();
-    helper(res, buffer, root, target);
+    helper(root, res, buffer, target);
     return res;
 }
     
-private void helper(List<List<Integer>> res, List<Integer> buffer, TreeNode root, int sum) {
+private void helper(TreeNode root, List<List<Integer>> res, List<Integer> buffer, int target) {
     if (root == null) {
         return;
     }
-    int temp = sum;
+    
     buffer.add(root.val);
-    int level = buffer.size();
-    for (int i = level - 1; i >= 0; i--) {
-        temp -= buffer.get(i);
-        if (temp == 0) {
-            List<Integer> list = new ArrayList<>();
-            for (int j = i; j < level; j++) {
-                list.add(buffer.get(j));
-            }
-            res.add(list);
-        }
+    // The end of path must be a leaf node
+    if (root.left == null && root.right == null && target == root.val) {
+        res.add(new ArrayList<>(buffer));
     }
-    helper(res, buffer, root.left, sum);
-    helper(res, buffer, root.right, sum);
+    helper(root.left, res, buffer, target - root.val);
+    helper(root.right, res, buffer, target - root.val);
     buffer.remove(buffer.size() - 1);
 }
 ```

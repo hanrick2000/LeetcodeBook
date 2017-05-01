@@ -1,10 +1,19 @@
-#### Question
+# NumberofIslands
+
+## Question
+
 0 represents sea, and 1 represents island. Find number of islands in a 2d matrix.
-#### Examples
+
+## Examples
+
 ![](https://farm5.staticflickr.com/4155/33976473290_44250b7840_o.jpg)
-#### Analysis
-Most typical BFS question. Key points are, first, make sure to remove state after visiting one node, to avoid cycle. Second, the next element in queue is a valid element which contains all information we need.
-#### Code
+
+## Analysis
+
+Most typical BFS question. Key points are, first, make sure to remove state after visiting one node, to avoid cycle. Second, the next element in queue is a valid element which contains all information we need. In this question, the BFS algorithm is used to traverse and mark all valid nodes.
+
+## Code
+
 ```java
 private class Point {
     int x;
@@ -36,7 +45,7 @@ private void bfs(boolean[][] grid, int i, int j) {
     // Mark starting node
     queue.offer(new Point(i, j));
     grid[i][j] = false;
-    
+
     // bfs
     while (!queue.isEmpty()) {
         Point curr = queue.poll();
@@ -47,6 +56,7 @@ private void bfs(boolean[][] grid, int i, int j) {
             if (!inBound(grid, x, y)) {
                 continue;
             }
+            // Only add valid point!!!
             if (grid[x][y]) {
                 queue.offer(new Point(x, y));
                 grid[x][y] = false; // 应该是visit之后就抹除比较合理, 不然会产生重复
@@ -67,6 +77,7 @@ private boolean inBound(boolean[][] grid, int x, int y) {
 ```
 
 My own solution:
+
 ```java
 private class Point {
     int x;

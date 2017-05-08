@@ -1,4 +1,4 @@
-# Readme
+# Overview
 
 ## When to use BFS
 
@@ -16,6 +16,8 @@
   - [Serialization](BinaryTreeSerialization.md)
 - Graph
 - 2D matrix
+
+## Notes
 
 - For BFS, "visited" happens before adding the node into queue.
 - Always remember to check if this node is valid before offering it to the queue.

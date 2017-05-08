@@ -30,6 +30,10 @@ public boolean validTree(int n, int[][] edges) {
     while (!queue.isEmpty()) {
         int curr = queue.poll();
         for (int i : graph.get(curr)) {
+            // Or use continue
+            // if (visited.contains(i)) {
+               // continue;
+            // }
             if (!visited.contains(i)) {
                 queue.offer(i);
                 visited.add(i);
@@ -40,15 +44,16 @@ public boolean validTree(int n, int[][] edges) {
 }
 // This initialization function is such typical style!!!
 private Map<Integer, Set<Integer>> initializeGraph(int n, int[][] edges) {
+    // So concise and clear!
     Map<Integer, Set<Integer>> graph = new HashMap<>();
     for (int i = 0; i < n; i++) {
         graph.put(i, new HashSet<Integer>());
     }
     for (int i = 0; i < edges.length; i++) {
-        int node1 = edges[i][0];
-        int node2 = edges[i][1];
-        graph.get(node1).add(node2);
-        graph.get(node2).add(node1);
+        int u = edges[i][0];
+        int v = edges[i][1];
+        graph.get(u).add(v);
+        graph.get(v).add(u);
     }
     return graph;
 }

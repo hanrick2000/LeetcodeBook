@@ -12,7 +12,7 @@
 ## Category
 
 - Binary tree
-  - Process node after poll or after offer ?.
+  - Process node after poll or after offer (?).
   - Question list
     - [Level order](LevelOrderTraversal.md)
     - [BinaryTreeSerialization](BinaryTreeSerialization.md)
@@ -21,6 +21,7 @@
   - Use `Map<Integer, Set<Integer>>` or graph node (?) to store a graph.
   - Question list
     - [SearchGraphNodes](SearchGraphNodes.md)
+    - [GraphValidTree](GraphValidTree.md)
 - 2D matrix
 
 ## Notes

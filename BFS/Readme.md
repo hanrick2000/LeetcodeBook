@@ -12,9 +12,15 @@
 ## Category
 
 - Binary tree
-  - Level order
-  - [Serialization](BinaryTreeSerialization.md)
+  - Process node after poll or after offer ?.
+  - Question list
+    - [Level order](LevelOrderTraversal.md)
+    - [BinaryTreeSerialization](BinaryTreeSerialization.md)
 - Graph
+  - Use "visited" set to avoid loops.
+  - Use `Map<Integer, Set<Integer>>` or graph node (?) to store a graph.
+  - Question list
+    - [SearchGraphNodes](SearchGraphNodes.md)
 - 2D matrix
 
 ## Notes

@@ -1,10 +1,19 @@
-#### Question
+# [LevelOrderTraversal](http://lintcode.com/problem/binary-tree-level-order-traversal)
+
+## Question
+
 Return binary tree level order traversal.
-#### Examples
+
+## Examples
+
 ![](https://farm3.staticflickr.com/2885/33562034873_9b7d5b5e03_o.jpg)
-#### Analysis
+
+## Analysis
+
 For each level, we need to know how many nodes we need.
-#### Code
+
+## Code
+
 ```java
 public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {
     ArrayList<ArrayList<Integer>> res = new ArrayList<>();
@@ -20,10 +29,10 @@ public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {
             temp.add(curr.val);
             if (curr.left != null) {
                 queue.offer(curr.left);
-            }    
+            }
             if (curr.right != null) {
                 queue.offer(curr.right);
-            }    
+            }
         }
         res.add(temp);
     }

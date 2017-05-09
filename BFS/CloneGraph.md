@@ -30,6 +30,8 @@ public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
     // Initializa graph nodes
     // 可以单独做个遍历建立graph, 但是太麻烦了, 不值得
     // 然而其实没有那么复杂, 反而更清晰, 只是多了一个arraylist而已
+    // 这样写不好!!! 还是应该用下面的better solution, 能分开做的任务一定不要合在一起, 这在工业界工作也是这样, 尽量拆分大任务.
+    // 尽管这个题会多生成一个arraylist, 但是其实没太所谓的???
     // bfs
     queue.offer(node);
     visited.add(node);

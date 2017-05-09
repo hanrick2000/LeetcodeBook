@@ -12,22 +12,28 @@
 ## Category
 
 - Binary tree
-  - Process node after poll or after offer (it depends ?).
+  - Process node after poll or after offer (__it depends ?__).
   - Question list
     - [Level order](LevelOrderTraversal.md)
     - [BinaryTreeSerialization](BinaryTreeSerialization.md)
 - Graph
   - Use "visited" set to avoid loops.
   - Build [all graph nodes first](CloneGraph.md) and store them into a list, and then it's easier to process.
-  - Use `Map<Integer, Set<Integer>>` or graph node (can we use graphnode ?) to store a graph.
+  - Use `Map<Integer, Set<Integer>>` or graph node (__can we use graphnode ?__) to store a graph.
   - Question list
-    - [SearchGraphNodes](SearchGraphNodes.md)
-    - [GraphValidTree](GraphValidTree.md)
-    - [CloneGraph](CloneGraph.md)
+    - [SearchGraphNodes](SearchGraphNodes.md) ![star][star]![star][star]
+    - [GraphValidTree](GraphValidTree.md) ![recommended][recommended]
+    - [CloneGraph](CloneGraph.md) ![must-have][must-have]
 - 2D matrix
 
 ## Notes
 
+- Maintain a set to keep track of __visited nodes__.
 - For BFS, the "visited" set must ensure that every node will only be offered into the queue for once!!!
-- Always remember to check if this node is valid before offering it to the queue.
-- Maintain a HashSet to keep track of __visited nodes__.
+- [Divide a complicated question into several parts](CloneGraph.md), and write them as separate methods. Because during interview, we might not have enought time to implement every detail, so we need to implement most significant methods first.
+- Remember to check if this node is valid before offering it to the queue.
+- Remember to initializa root node.
+
+[must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
+[recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg
+[star]: https://jaywcjlove.github.io/sb/star/red.svg

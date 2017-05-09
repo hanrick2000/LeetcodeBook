@@ -18,6 +18,7 @@
     - [BinaryTreeSerialization](BinaryTreeSerialization.md)
 - Graph
   - Use "visited" set to avoid loops.
+  - Build all graph nodes first and store them into a list, and then it's easier to process.
   - Use `Map<Integer, Set<Integer>>` or graph node (?) to store a graph.
   - Question list
     - [SearchGraphNodes](SearchGraphNodes.md)
@@ -26,6 +27,6 @@
 
 ## Notes
 
-- For BFS, "visited" happens before adding the node into queue.
+- For BFS, the "visited" set must ensure that every node will only be offered into the queue for once!!!
 - Always remember to check if this node is valid before offering it to the queue.
 - Maintain a HashSet to keep track of __visited nodes__.

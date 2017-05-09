@@ -12,17 +12,18 @@
 ## Category
 
 - Binary tree
-  - Process node after poll or after offer (?).
+  - Process node after poll or after offer (it depends ?).
   - Question list
     - [Level order](LevelOrderTraversal.md)
     - [BinaryTreeSerialization](BinaryTreeSerialization.md)
 - Graph
   - Use "visited" set to avoid loops.
-  - Build all graph nodes first and store them into a list, and then it's easier to process.
-  - Use `Map<Integer, Set<Integer>>` or graph node (?) to store a graph.
+  - Build [all graph nodes first](CloneGraph.md) and store them into a list, and then it's easier to process.
+  - Use `Map<Integer, Set<Integer>>` or graph node (can we use graphnode ?) to store a graph.
   - Question list
     - [SearchGraphNodes](SearchGraphNodes.md)
     - [GraphValidTree](GraphValidTree.md)
+    - [CloneGraph](CloneGraph.md)
 - 2D matrix
 
 ## Notes

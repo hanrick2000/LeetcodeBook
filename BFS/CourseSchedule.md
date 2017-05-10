@@ -12,7 +12,7 @@ To take course 0 you have to take course 1, which is [0, 1].
 
 Typical topological sorting, since every element has relationship with each other. Normally I would use `Map<Integer, Set<Integer>>` to represent this graph. But for this question, since all nodes are presented from 0 to n-1, so we can use the nature of array to hash index of nodes.
 
-The index 0 to n-1 can simplify the representation of graph! So we can use List[] to represent the graph and ArrayList to represent degrees. What if there are duplicates in the given 2D array? Not a problem! The List[] will add it again, and array will reduce degree again. So the idea is, no mattter there is duplicate or not, the graph representation and in-degree representation should stick together and keep the same pace.
+The index 0 to n-1 can simplify the representation of graph! So we can use List[] to represent the graph and ArrayList to represent degrees. What if there are duplicates in the given 2D array? (ex, there are two pairs of [1,9]) Not a problem! The List[] will add it again, and array will reduce degree again. So the idea is, no mattter there is duplicate or not, the graph representation and in-degree representation should stick together and keep the same pace.
 
 ## Code
 

@@ -26,6 +26,7 @@
     - [CloneGraph](CloneGraph.md) ![must-have][must-have]
     - [TopologicalSorting](TopologicalSorting.md) ![must-have][must-have]
     - [CourseSchedule](CourseSchedule.md) ![star5][star5]
+    - [CourseSchedule2](CourseSchedule2.md) ![star2][star2]
 - 2D matrix
 
 ## Notes

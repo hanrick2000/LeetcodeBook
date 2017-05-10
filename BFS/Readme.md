@@ -21,10 +21,11 @@
   - Build [all graph nodes first](CloneGraph.md) and store them into a list, and then it's easier to process.
   - Use `Map<Integer, Set<Integer>>` or graph node (__can we use graphnode ?__) to store a graph.
   - Question list
-    - [SearchGraphNodes](SearchGraphNodes.md) ![star][star]![star][star]![star][star]
+    - [SearchGraphNodes](SearchGraphNodes.md) ![star3][star3]
     - [GraphValidTree](GraphValidTree.md) ![recommended][recommended]
     - [CloneGraph](CloneGraph.md) ![must-have][must-have]
     - [TopologicalSorting](TopologicalSorting.md) ![must-have][must-have]
+    - [CourseSchedule](CourseSchedule.md) ![star5][star5]
 - 2D matrix
 
 ## Notes
@@ -38,3 +39,9 @@
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg
 [star]: https://jaywcjlove.github.io/sb/star/red.svg
+[star0]: https://jaywcjlove.github.io/sb/star/red0.svg
+[star1]: https://jaywcjlove.github.io/sb/star/red1.svg
+[star2]: https://jaywcjlove.github.io/sb/star/red2.svg
+[star3]: https://jaywcjlove.github.io/sb/star/red3.svg
+[star4]: https://jaywcjlove.github.io/sb/star/red4.svg
+[star5]: https://jaywcjlove.github.io/sb/star/red5.svg

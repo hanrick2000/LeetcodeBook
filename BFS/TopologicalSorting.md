@@ -10,9 +10,15 @@ Return any one of topological sorting based on the given graph.
 
 ## Analysis
 
-How to keep persistent information about a node, is the key problem. Directed graph also could have loops. You have to know in degree and out degree concepts. In degree means number of edges going into a node. Out degree means number of edges going out of a node. This question only uses in degree.
+How to keep persistent information about a node, is the key problem. Directed graph also could have loops. You have to know in degree and out degree concepts. In degree means number of edges going into a node. Out degree means number of edges going out of a node. This question only uses in degree. The normal way to do topological sorting is to use DFS (with stack) to keep track of persistent information.
 
 Use the thought of dividing big questions into several small parts (methods).
+
+Three steps for topological sorting:
+
+- Collect in-degree
+- Put all nodes with 0 in-degree into queue
+- bfs
 
 ## Code
 
@@ -24,7 +30,7 @@ public ArrayList<DirectedGraphNode> topSort(ArrayList<DirectedGraphNode> graph) 
     }
     // Get degrees
     Map<DirectedGraphNode, Integer> map = getDegrees(graph);
-    // Add root nodes
+    // bfs
     Queue<DirectedGraphNode> queue = new LinkedList<>();
     ArrayList<DirectedGraphNode> res = new ArrayList<>();
     for (DirectedGraphNode node : graph) {
@@ -33,7 +39,6 @@ public ArrayList<DirectedGraphNode> topSort(ArrayList<DirectedGraphNode> graph) 
             res.add(node);
         }
     }
-    // bfs
     while (!queue.isEmpty()) {
         DirectedGraphNode curr = queue.poll();
         for (DirectedGraphNode neighbor : curr.neighbors) {

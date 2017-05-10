@@ -6,7 +6,7 @@
 
 ## Examples
 
-![](https://farm5.staticflickr.com/4167/33729103444_828d3dfaf6_o.jpg)
+![](https://farm5.staticflickr.com/4176/34185883760_afbba65dcb_o.jpg)
 
 ## Analysis
 

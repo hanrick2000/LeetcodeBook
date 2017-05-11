@@ -10,11 +10,21 @@ See below.
 
 ## Analysis
 
-Several edge cases:
+This question is awesome! It combines everything in BFS topological sorting. This kind of question cannot be more complicated! At least my solution includes __building graph, get degrees, 2D array traversal, helper function, level order, and various conditions to check false__, etc.
+
+This kind of question is really hard, since it has two separate set of input, and we need to validate them. We need to think about which side to start with.
+
+Important edge cases:
 
 - 1 and [[1,1]]
 - [4,1,5,2,6,3] and [[5,2,6,3],[4,1,5,2]]
 - 1 and [[], []]
+
+Learned experience:
+
+- We can use `for (int[] seq : seqs)` to traverse
+- The question says that org is a sequence from 1 to n, so this is what we can be sure about. So we should build graph from the perspective of org, which would be much easier. My solution is building graph upon the seqs.
+- In topological sorting, `num == graph.size()` decides if there is any loop in the graph.
 
 ## Code
 
@@ -43,11 +53,12 @@ public boolean sequenceReconstruction(int[] org, int[][] seqs) {
         return false;
     }
     Queue<Integer> queue = new LinkedList<>();
-    for (int i = 0; i < n; i++) {
+    for (int i : indegree.keySet()) {
         if (indegree.get(i) == 0) {
             queue.offer(i);
             res[num++] = i;
         }
+        // [1,2,3,4] and [[1,2],[1,3],[4]] -> return false
         if (num > 1) {
             //System.out.println("2");
             return false;

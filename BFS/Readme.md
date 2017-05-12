@@ -43,6 +43,7 @@
   - Question list
     - [NumberofIslands](NumberofIslands.md) ![recommended][recommended] ![star][star]
     - [BuildPostOffice2](BuildPostOffice2.md) ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [KnightShortestPath](KnightShortestPath.md) ![medium][medium] ![recommended][recommended] ![star][star]
 
 ## Time complexity
 

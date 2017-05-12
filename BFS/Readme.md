@@ -42,6 +42,7 @@
   - The 2D matrix plays the role as the HashMap in a graph, which contains information about neighbors for a node.
   - Question list
     - [NumberofIslands](NumberofIslands.md) ![recommended][recommended] ![star][star]
+    - [BuildPostOffice](BuildPostOffice.md)
     - [BuildPostOffice2](BuildPostOffice2.md) ![must-have][must-have] ![hard][hard] ![hard][hard] ![star][star]
     - [KnightShortestPath](KnightShortestPath.md) ![medium][medium] ![star][star]
     - [ZombieInMatrix](ZombieInMatrix.md) ![easy][easy] ![recommended][recommended] ![star][star]

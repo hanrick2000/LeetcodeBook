@@ -10,14 +10,19 @@
 - ![star][star] means __how many times I've done__ for this question;
 - ![freq][freq] means __this is frequently asked__ in interviews.
 
-## When to use BFS
+## When to use DFS
 
-- Traversal
-  - Level order traversal
-  - Connected components
-  - Topological sorting
-- Shortest path
-  - Simple graph (no direction, weight is 1)
+- Find all possible permutations or combinations.
+- Non-recursion with stack.
+
+## Comparsion with BFS
+
+- In BFS, each node has a uniform rule to get its neighbors. But often DFS doesn't have such rule. Sometimes you need to consider other constraints, like __Subsets__ question. But it can still be solved by BFS.
+- It's hard to pass information like __ArrayList__ from last level to next level in BFS to build some path. But it's easier to do in DFS since it's using recursion, and it has backtracking to return information even from low level to hight level.
+- Why we need to use DFS not BFS sometimes ?
+  - The interviewer wants to see that you can write recursion.
+  - BFS is complicated for some kind of questions.
+  - DFS can save a lot of memory, since it doesn't need to store previous state.
 
 ## Category
 
@@ -47,12 +52,11 @@
 
 ## Time complexity
 
-- O(M), M is the number of edges in the graph (Actually it should be 2M, since every edge will be visited for twice). Assume N is the number of nodes. The worst case is M = N^2.
-- If the graph is a 2D matrix with H height, W width, so the time complexity is O(H * W).
+- O(numer of answers * time spent on each answer)
 
 ## Notes
 
-- Maintain a set to keep track of __visited nodes__.
+- DFS has __backtracking__ nature.
 - For BFS, the "visited" set must ensure that every node will only be offered into the queue for once!!!
 - [Divide a complicated question into several parts](CloneGraph.md), and write them as separate methods. Because during interview, we might not have enought time to implement every detail, so we need to implement most significant methods first.
 - Remember to check if this node is valid before offering it to the queue.
@@ -63,6 +67,10 @@
   - while(!queue.isEmpty())
   - for each node in current level
   - for each neighbor in current node
+
+## Appendix
+
+![](https://farm5.staticflickr.com/4187/34570613476_9a817f1255_o.jpg)
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

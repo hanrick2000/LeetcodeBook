@@ -6,8 +6,8 @@ See the below.
 
 ## Examples
 
-![](Images/KnightShortestPath-1.png)
-![](Images/KnightShortestPath-2.png)
+![](https://farm5.staticflickr.com/4158/33796344743_afacfcaaaf_o.jpg)
+![](https://farm5.staticflickr.com/4188/33796349373_611c843a9f_o.jpg)
 
 ## Analysis
 
@@ -15,3 +15,6 @@ See the below.
 
 ## Code
 
+```java
+
+```

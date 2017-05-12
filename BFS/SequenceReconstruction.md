@@ -12,7 +12,7 @@ See below.
 
 This question is awesome! It combines everything in BFS topological sorting. This kind of question cannot be more complicated! At least my solution includes __building graph, get degrees, 2D array traversal, helper function, level order, and various conditions to check false__, etc.
 
-This kind of question is really hard, since it has two separate set of input, and we need to validate them. We need to think about which side to start with.
+This kind of question is really hard, since it has two separate set of input, and we need to validate them. __We need to think about which side to start with__. And always such kind of __reverse thinking__ would save a lot of work.
 
 Important edge cases:
 

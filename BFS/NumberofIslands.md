@@ -12,6 +12,8 @@
 
 Most typical BFS question. Key points are, first, make sure to remove state after visiting one node, to avoid cycle. Second, the next element in queue is a valid element which contains all information we need. In this question, the BFS algorithm is used to traverse and mark all valid nodes.
 
+If we use DFS, there might be stackoverflow problem.
+
 ## Code
 
 ```java

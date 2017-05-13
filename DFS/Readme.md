@@ -21,34 +21,24 @@
 - It's hard to pass information like __ArrayList__ from last level to next level in BFS to build some path. But it's easier to do in DFS since it's using recursion, and it has backtracking to return information even from low level to hight level.
 - Why we need to use DFS not BFS sometimes ?
   - The interviewer wants to see that you can write recursion.
-  - BFS is complicated for some kind of questions.
+  - BFS is complicated for some kind of questions like building a set of paths.
   - DFS can save a lot of memory, since it doesn't need to store previous state.
+
+## Recursion
+
+- Define the recursion function.
+  - What parameters to use.
+- When to go into recursion.
+  - In binary tree, entrance is left child or right child.
+- When to end recursion.
+  - If ... then return.
 
 ## Category
 
-- Binary tree
+- Combination
   - Process node after poll or after offer (__it depends ?__).
   - Question list
-    - [Level order](LevelOrderTraversal.md) ![star][star]
-    - [BinaryTreeSerialization](BinaryTreeSerialization.md) ![star][star]
-- Graph
-  - Use "visited" set to avoid loops, no matter the graph is directed or undirected.
-  - Build [all graph nodes first](CloneGraph.md) and store them into a list, and then it's easier to process.
-  - Use `Map<Integer, Set<Integer>>` or graph node (__can we use graphnode ?__) to store a graph.
-  - Question list
-    - [SearchGraphNodes](SearchGraphNodes.md) ![star][star]
-    - [GraphValidTree](GraphValidTree.md) ![recommended][recommended] ![star][star]
-    - [CloneGraph](CloneGraph.md) ![must-have][must-have] ![star][star]
-    - [TopologicalSorting](TopologicalSorting.md) ![must-have][must-have] ![star][star]
-    - [CourseSchedule](CourseSchedule.md) ![star][star]
-    - [CourseSchedule2](CourseSchedule2.md) ![star][star]
-    - [SequenceReconstruction](SequenceReconstruction.md) ![must-have][must-have] ![star][star]
-- 2D matrix
-  - Regarded as an undirected matrix graph.
-  - The 2D matrix plays the role as the HashMap in a graph, which contains information about neighbors for a node.
-  - Question list
-    - [NumberofIslands](NumberofIslands.md) ![recommended][recommended] ![star][star]
-    - [BuildPostOffice2](BuildPostOffice2.md) ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [CombinationSum](CombinationSum.md) ![easy][easy] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 ## Time complexity
 

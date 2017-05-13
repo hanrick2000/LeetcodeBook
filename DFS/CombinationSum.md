@@ -1,8 +1,8 @@
-# [CombinationSum](https://leetcode.com/problems/combination-sum/)
+# [CombinationSum](http://www.lintcode.com/en/problem/combination-sum/)
 
 ## Question
 
-Given a set C of unique positive integers, and a target number T. Find all unique combinations in C that sum up to T. Integers in each combination are in non-descending order.
+Given a set C of non unique positive integers, and a target number T. Find all unique combinations in C that sum up to T. Integers in each combination are in non-descending order.
 
 ## Examples
 

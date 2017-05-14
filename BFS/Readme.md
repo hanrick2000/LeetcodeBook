@@ -72,7 +72,7 @@
 [medium]: https://jaywcjlove.github.io/sb/ico/min-oss.svg
 [hard]: https://jaywcjlove.github.io/sb/ico/min-hot.svg
 [star]: https://jaywcjlove.github.io/sb/star/red.svg
-[star0]: https://jaywcjlove.github.io/sb/star/red0.svg
+[star0]: https://jaywcjlove.github.io/sb/star/gray.svg
 [star1]: https://jaywcjlove.github.io/sb/star/red1.svg
 [star2]: https://jaywcjlove.github.io/sb/star/red2.svg
 [star3]: https://jaywcjlove.github.io/sb/star/red3.svg

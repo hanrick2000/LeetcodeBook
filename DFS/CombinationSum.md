@@ -12,6 +12,8 @@ Given a set C of non unique positive integers, and a target number T. Find all u
 
 This question is not hard. Just follow the three steps of recursion. And don't forget to meet all the requirements from the question.
 
+**Break out of loop if target is already smaller than current candidate**. In this way, we can cut off all the candidates after current candidate since the array is sorted, and we don't need to go into their recursion. And this solution can beat 96% on Leetcode.
+
 ## Code
 
 ```java
@@ -29,6 +31,7 @@ public List<List<Integer>> combinationSum(int[] candidates, int target) {
 
 private void dfs(List<List<Integer>> res, List<Integer> buffer, int target, int[] candidates, int index) {
     // 递归出口, 可能不止一个condition
+    // 这里也可以简化一下, 把这个写在for循环里, 这样就不用多走一步了.
     if (target < 0) {
         return;
     }
@@ -49,11 +52,18 @@ private void dfs(List<List<Integer>> res, List<Integer> buffer, int target, int[
         if (i > index && candidates[i] == candidates[i - 1]) {
             continue;
         }
+        // 这个是更好的, 可以快一些
+        // if (candidates[i] > target) {
+        //    break;
+        // }
         int curr = candidates[i];
+        // [1] -> [1,2]
         buffer.add(curr);
+        // 把所有[1,2]开头的list传下去
         dfs(res, buffer, target - curr, candidates, i);
         // 剩下的这一步其实可以在第三步递归出口写完之后来写, 算了, 还是拆解的时候写把, 免得忘了
         // 从当前状态的视角观察, 其实就是在remove自己
+        // [1,2] -> [1]
         buffer.remove(buffer.size() - 1);
     }
 }

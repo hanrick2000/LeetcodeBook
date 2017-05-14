@@ -36,13 +36,21 @@
 ## Category
 
 - Combination
-  - Process node after poll or after offer (__it depends ?__).
+  - According to some rule, check how many states can there be in current level.
+  - Cut off all the unnecessary states in the step2 of recursion as many as possible, and keep step3 as simple as only one sentence. In this way, the running time can be reduced a lot.
   - Question list
-    - [CombinationSum](CombinationSum.md) ![easy][easy] ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [Subsets](Subsets.md) ![easy][easy] ![star][star]
+    - [CombinationSum](CombinationSum.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [CombinationSum2](CombinationSum2.md) ![easy][easy] ![star][star]
 
 ## Time complexity
 
 - O(numer of answers * time spent on each answer)
+- Subsets
+  - 2^n * n
+- Combination
+- Permutation
+  - n! * n
 
 ## Notes
 
@@ -60,7 +68,7 @@
 
 ## Appendix
 
-![](https://farm5.staticflickr.com/4187/34570613476_9a817f1255_o.jpg)
+![](https://farm5.staticflickr.com/4189/34646069805_ca6c55be8e_o.png)
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

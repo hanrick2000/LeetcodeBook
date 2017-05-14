@@ -13,3 +13,7 @@ Basically, coding questions are made up of data structures and algorithms. Data 
 - What data structures to use ?
 - What information to store in those data structures ?
 - How to use these information ?
+
+## "Searching" problem
+
+The nature of searching problem like BFS, DFS, DP, etc, is about checking all the possible states in current stage.

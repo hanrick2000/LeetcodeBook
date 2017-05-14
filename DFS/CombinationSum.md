@@ -14,6 +14,8 @@ This question is not hard. Just follow the three steps of recursion. And don't f
 
 **Break out of loop if target is already smaller than current candidate**. In this way, we can cut off all the candidates after current candidate since the array is sorted, and we don't need to go into their recursion. And this solution can beat 96% on Leetcode.
 
+For [2,2,3] and 7 input, one valid solution is [2,2,3], but the second 2 in the list could come from first 2 itself if the question allows to use itself or could just come from the second 2.
+
 ## Code
 
 ```java

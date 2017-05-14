@@ -36,27 +36,29 @@
 ## Category
 
 - Combination
-  - According to some rule, check how many states can there be in current level.
+  - According to some valid rule, check how many states can there be in current level and **only pass valid to next level**.
   - Cut off all the unnecessary states in the step2 of recursion as many as possible, and keep step3 as simple as only one sentence. In this way, the running time can be reduced a lot.
+  - The content of each solution is not related to element order.
   - Question list
     - [Subsets](Subsets.md) ![easy][easy] ![star][star]
     - [CombinationSum](CombinationSum.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [CombinationSum2](CombinationSum2.md) ![easy][easy] ![star][star]
+    - [PalindromePartitioning](PalindromePartitioning.md) ![hard][hard] ![recommended][recommended] ![star0][star0]
+- Permutation
+  - The content of each solution is related to element order.
 
 ## Time complexity
 
 - O(numer of answers * time spent on each answer)
-- Subsets
-  - 2^n * n
 - Combination
+  - 2^n * n
 - Permutation
   - n! * n
 
 ## Notes
 
 - DFS has __backtracking__ nature.
-- For BFS, the "visited" set must ensure that every node will only be offered into the queue for once!!!
-- [Divide a complicated question into several parts](CloneGraph.md), and write them as separate methods. Because during interview, we might not have enought time to implement every detail, so we need to implement most significant methods first.
+- For DFS, first build up a search tree.
 - Remember to check if this node is valid before offering it to the queue.
 - Remember to initializa root node.
 - Learn to use global variables and constant values to make code clear.
@@ -67,6 +69,8 @@
   - for each neighbor in current node
 
 ## Appendix
+
+- Time complexity growing speed
 
 ![](https://farm5.staticflickr.com/4189/34646069805_ca6c55be8e_o.png)
 

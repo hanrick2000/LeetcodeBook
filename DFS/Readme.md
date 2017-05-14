@@ -46,6 +46,8 @@
     - [PalindromePartitioning](PalindromePartitioning.md) ![hard][hard] ![recommended][recommended] ![star0][star0]
 - Permutation
   - The content of each solution is related to element order.
+  - Question list
+    - [Permutations](Permutations.md) ![easy][easy] ![freq][freq] ![star][star]
 
 ## Time complexity
 
@@ -59,14 +61,7 @@
 
 - DFS has __backtracking__ nature.
 - For DFS, first build up a search tree.
-- Remember to check if this node is valid before offering it to the queue.
-- Remember to initializa root node.
-- Learn to use global variables and constant values to make code clear.
-  - For example, use m to represent number of rows, and n to represent number of columns.
-- A most complete BFS algorithm includes three parts:
-  - while(!queue.isEmpty())
-  - for each node in current level
-  - for each neighbor in current node
+- Actually if we don't optimize operations insied DFS for loop from O(n) to O(1), it's not that big deal. Because the main part of time complexity is 2^n or n!.
 
 ## Appendix
 

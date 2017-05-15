@@ -12,6 +12,14 @@ Given a set of numbers with duplicates. Find all unique permutations.
 
 **Use visited array to store binary values 0 or 1.**
 
+Time complexity: n * n!.
+
+Draw some concrete simple examples on paper and it would be easier to understand.
+
+For [1,2,2], we can regard it as [1, 2(1), 2(2)], so duplicates are 2(1) and 2(2), normally we just choose 2(1).
+
+Don't think too much, just list every possibility that there might be duplicates, and adding some rule to remove them.
+
 ## Code
 
 ```java

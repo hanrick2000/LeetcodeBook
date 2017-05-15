@@ -12,6 +12,8 @@ Given a list of numbers, return all possible permutations. There is no duplicate
 
 This is easier than combination sum. Very straightforward.
 
+Time complexity: n^2 * n!, since `buffer.contains(nums[i])` is O(n).
+
 ## Code
 
 ```java

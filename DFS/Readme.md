@@ -49,6 +49,7 @@
   - Question list
     - [Permutations](Permutations.md) ![easy][easy] ![freq][freq] ![star][star]
     - [Permutations2](Permutations2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [NQueens](NQueens.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 ## Time complexity
 

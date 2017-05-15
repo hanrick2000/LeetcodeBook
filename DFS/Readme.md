@@ -48,6 +48,7 @@
   - The content of each solution is related to element order.
   - Question list
     - [Permutations](Permutations.md) ![easy][easy] ![freq][freq] ![star][star]
+    - [Permutations2](Permutations2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 ## Time complexity
 

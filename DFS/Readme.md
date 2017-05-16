@@ -41,6 +41,7 @@
   - The content of each solution is not related to element order.
   - Question list
     - [Subsets](Subsets.md) ![easy][easy] ![star][star]
+    - [Subsets2](Subsets2.md) ![easy][easy] ![recommended][recommended] ![star][star]
     - [CombinationSum](CombinationSum.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [CombinationSum2](CombinationSum2.md) ![easy][easy] ![star][star]
     - [PalindromePartitioning](PalindromePartitioning.md) ![hard][hard] ![recommended][recommended] ![star0][star0]

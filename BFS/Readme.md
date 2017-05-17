@@ -46,6 +46,8 @@
     - [BuildPostOffice2](BuildPostOffice2.md) ![must-have][must-have] ![hard][hard] ![hard][hard] ![star][star]
     - [KnightShortestPath](KnightShortestPath.md) ![medium][medium] ![star][star]
     - [ZombieInMatrix](ZombieInMatrix.md) ![easy][easy] ![recommended][recommended] ![star][star]
+- String
+  - [WordLadder](WordLadder.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star0][star0]
 
 ## Time complexity
 

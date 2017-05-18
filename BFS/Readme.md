@@ -48,6 +48,7 @@
     - [ZombieInMatrix](ZombieInMatrix.md) ![easy][easy] ![recommended][recommended] ![star][star]
 - String
   - [WordLadder](WordLadder.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star0][star0]
+  - [WordLadder2](../DFS/WordLadder2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 ## Time complexity
 

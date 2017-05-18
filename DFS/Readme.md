@@ -23,6 +23,7 @@
   - The interviewer wants to see that you can write recursion.
   - BFS is complicated for some kind of questions like building a set of paths.
   - DFS can save a lot of memory, since it doesn't need to store previous state.
+- BFS can get results by level, but only DFS can get all possible solutions.
 
 ## Recursion
 
@@ -52,6 +53,9 @@
     - [Permutations2](Permutations2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [NQueens](NQueens.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [NQueens2](NQueens2.md) ![easy][easy] ![star][star]
+- Graph search
+    - [WordLadder2](WordLadder2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
+- Non-recursion
 
 ## Time complexity
 
@@ -66,6 +70,8 @@
 - DFS has __backtracking__ nature.
 - For DFS, first build up a search tree.
 - Actually if we don't optimize operations insied DFS for loop from O(n) to O(1), it's not that big deal. Because the main part of time complexity is 2^n or n!.
+- **If we want to use HashMap to map Integer to Integer, then we can probably just use an array to do the mapping.**
+- DFS does not need to have backtracking like number of islands, but if the question is about finding paths, then we need DFS to do backtracking.
 
 ## Appendix
 

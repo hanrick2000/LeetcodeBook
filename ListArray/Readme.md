@@ -22,7 +22,6 @@
 
 - LinkedList
   - Question list
-    - 
     - [InsertIntoCyclicSortedList](InsertIntoCyclicSortedList.md)
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg

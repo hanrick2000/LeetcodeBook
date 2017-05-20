@@ -75,7 +75,7 @@ public TreeNode deserialize(String data) {
     int index = 0;
     // 两个作用, 一个是判断当前节点是左节点还是右节点, 第二个是用于判断何时递加index, 这样就可以避免null
     // 和下面另外一个方法的区别在于index追踪的是parent node, 而另外一个追踪的是child node
-    boolean isLeftChild = true; 
+    boolean isLeftChild = true;
     for (int i = 1; i < nodes.length; i++) {
         if (!nodes[i].equals("#")) {
             TreeNode node = new TreeNode(Integer.parseInt(nodes[i]));

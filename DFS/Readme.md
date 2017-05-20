@@ -54,7 +54,7 @@
     - [NQueens](NQueens.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [NQueens2](NQueens2.md) ![easy][easy] ![star][star]
 - Graph search
-    - [WordLadder2](WordLadder2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [WordLadder2](WordLadder2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star0][star0]
 - Non-recursion
 
 ## Time complexity

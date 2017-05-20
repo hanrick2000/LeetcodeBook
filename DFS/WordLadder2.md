@@ -10,7 +10,7 @@ Return all possible shortest sequences.
 
 ## Analysis
 
-Use BFS to get distances to target, and use DFS to get all shortest sequences. Still it looks like a little difficult. There is still something that can be improved, like generalizing bfs function. But anyway, for the first time, it passed. 
+Use BFS to get distances to target, and use DFS to get all shortest sequences. Still it looks like a little difficult. There is still something that can be improved, like generalizing bfs function. But anyway, for the first time, it passed.
 
 ## Code
 
@@ -19,7 +19,7 @@ public List<List<String>> findLadders(String start, String end, Set<String> dict
     // dfs求不了最短路径, 而bfs可以求
     // 所以先用bfs求最短路径, 存起来, 然后用dfs来解, 相当于用bfs给dfs提供了
     // 搜索的额外信息, 按照离end的距离来搞
-    // Start bfs from end string to get distances from each intermediate 
+    // Start bfs from end string to get distances from each intermediate
     // string to end string
     dict.add(start);
     Map<String, Integer> distances = new HashMap<>();

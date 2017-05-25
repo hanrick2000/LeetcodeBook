@@ -2,7 +2,7 @@
 
 ## Question
 
-
+Given a node in a cyclic sorted linked list, insert a new node into the list, and return this new node.
 
 ## Examples
 

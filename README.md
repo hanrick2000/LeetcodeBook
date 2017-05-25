@@ -17,3 +17,7 @@ Basically, coding questions are made up of data structures and algorithms. Data 
 ## "Searching" problem
 
 The nature of searching problem like BFS, DFS, DP, etc, is about checking all the possible states in current stage.
+
+## Methodology
+
+- Consider about how to design method API, like `reverse(ListNode head)`. What is the meaning of input `head`, and what is the meaning of returned parameter ?

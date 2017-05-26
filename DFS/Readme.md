@@ -56,6 +56,9 @@
 - Graph search
     - [WordLadder2](WordLadder2.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star0][star0]
 - Non-recursion
+- Others
+  - Question list
+    - [NextPermutation](NextPermutation.md) ![medium][medium] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 ## Time complexity
 

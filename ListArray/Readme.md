@@ -18,11 +18,19 @@
   - Subarray
   - Sorted array
 
+## Methodology
+
+- LinkedList
+  - **Add dummy node when the structure of list changes.**
+  - First think about a general solution, and define APIs (input and output parameters for methods).
+  - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
+
 ## Category
 
 - LinkedList
   - Question list
     - [InsertIntoCyclicSortedList](InsertIntoCyclicSortedList.md)
+    - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

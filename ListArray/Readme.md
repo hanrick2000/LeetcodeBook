@@ -24,14 +24,20 @@
   - **Add dummy node when the structure of list changes.**
   - First think about a general solution, and define APIs (input and output parameters for methods).
   - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
+    - Adding a dummy node before the head node, and reset the head node as dummy node. In this way, we regard the dummy node as a part of the whole list.
 
 ## Category
 
 - LinkedList
   - Question list
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
-    - [InsertIntoCyclicSortedList](InsertIntoCyclicSortedList.md)
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
+
+## Notes
+
+- LinkedList
+  - More temporary variables means a more clear program.
+  - Don't use one variable name to denote multiple meanings.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

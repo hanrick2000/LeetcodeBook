@@ -21,7 +21,9 @@
 ## Methodology
 
 - LinkedList
-  - **Add dummy node when the structure of list changes.**
+  - **Add dummy node when the head of the list will change. So dummy node is used to preserve the head node**
+    - Use `head = dummy` to include dummy node into your algorithms.
+    - 90% of linked list questions have used **dummy node**, because most questions will actually change the original structure of the list.
   - First think about a general solution, and define APIs (input and output parameters for methods).
   - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
     - Adding a dummy node before the head node, and reset the head node as dummy node. In this way, we regard the dummy node as a part of the whole list.
@@ -32,6 +34,7 @@
   - Question list
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
+    - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
 
 ## Notes
 

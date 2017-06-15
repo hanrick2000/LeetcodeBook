@@ -1,4 +1,4 @@
-# [Java Leetcode Book](Table.md)
+# Content
 
 <!-- TOC -->
 

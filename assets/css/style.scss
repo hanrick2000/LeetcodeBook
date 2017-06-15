@@ -3,5 +3,5 @@
 
 @import "{{ site.theme }}";
 header h1 {text-shadow: rgba(255, 255, 255, 0.0) 0 1px 0;}
-.wrapper {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; background: #ffffff;}
+.wrapper {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; background: #ffffff; font-weigth: 400; color: black}
 h1, h2, h3, h4, h5, h6 { font-weight: 500; }

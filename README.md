@@ -1,5 +1,21 @@
 # [Java Leetcode Book](Table.md)
 
+<!-- TOC -->
+
+- [Java Leetcode Book](Table.md)
+  - [Overview](#overview)
+  - [Three questions to ask](#three-questions-to-ask)
+  - ["Searching" problem](#searching-problem)
+  - [Methodology](#methodology)
+  - [Sections](#sections)
+    - [BinarySearch](BinarySearch/Readme.md)
+    - [Tree](Tree/Readme.md)
+    - [BFS](BFS/Readme.md)
+    - [DFS](DFS/Readme.md)
+    - [ListArray](ListArray/Readme.md)
+
+<!-- /TOC -->
+
 This notebook serves as a personal leetcode solution manual and also includes some personal thoughts. For every level, there is a root directory which provides a list of links to its children.
 
 The first character of all the directory names are uppercase, and those of files' are lowercase.

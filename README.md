@@ -2,17 +2,16 @@
 
 <!-- TOC -->
 
-- [Java Leetcode Book](Table.md)
-  - [Overview](#overview)
-  - [Three questions to ask](#three-questions-to-ask)
-  - ["Searching" problem](#searching-problem)
-  - [Methodology](#methodology)
-  - [Sections](#sections)
-    - [BinarySearch](BinarySearch/Readme.md)
-    - [Tree](Tree/Readme.md)
-    - [BFS](BFS/Readme.md)
-    - [DFS](DFS/Readme.md)
-    - [ListArray](ListArray/Readme.md)
+- [Overview](#overview)
+- [Three questions to ask](#three-questions-to-ask)
+- ["Searching" problem](#searching-problem)
+- [Methodology](#methodology)
+- [Sections](#sections)
+  - [BinarySearch](BinarySearch/Readme.md)
+  - [Tree](Tree/Readme.md)
+  - [BFS](BFS/Readme.md)
+  - [DFS](DFS/Readme.md)
+  - [ListArray](ListArray/Readme.md)
 
 <!-- /TOC -->
 

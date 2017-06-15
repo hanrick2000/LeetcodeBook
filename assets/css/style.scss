@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 section {line-height: 1.6;}
-p, ul, ol, table, pre, dl {margin: 0 0 0px;}
+p, ul, ol, table, pre, dl {}
 body {font-weight: 400; line-height: 1.6;}
 header h1 {text-shadow: rgba(255, 255, 255, 0.0) 0 1px 0;}
 .wrapper {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; background: #ffffff; font-weigth: 400; color: black}

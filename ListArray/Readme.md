@@ -34,6 +34,7 @@
 - LinkedList
   - Question list
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
+    - [ReverseLinkedList2](ReverseLinkedList2.md) ![hard][hard] ![star][star]
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
 

@@ -27,6 +27,7 @@
   - First think about a general solution, and define APIs (input and output parameters for methods).
   - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
     - Adding a dummy node before the head node, and reset the head node as dummy node. In this way, we regard the dummy node as a part of the whole list.
+    - We do need to include dummy node, but we will never run our algorithms on dummy node, it's just used to maintain a link to head node. Because dummy node is based on this **unchanged** rule, so we can do whatever we want on nodes behind dummy.
 
 ## Category
 
@@ -41,6 +42,8 @@
 - LinkedList
   - More temporary variables means a more clear program.
   - Don't use one variable name to denote multiple meanings.
+- Dummy node will not change its position.
+- `while (pos < num)`, so at the end, the condition should be `pos == num`.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

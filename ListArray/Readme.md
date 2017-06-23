@@ -28,15 +28,18 @@
   - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
     - Adding a dummy node before the head node, and reset the head node as dummy node. In this way, we regard the dummy node as a part of the whole list.
     - We do need to include dummy node, but we will never run our algorithms on dummy node, it's just used to maintain a link to head node. Because dummy node is based on this **unchanged** rule, so we can do whatever we want on nodes behind dummy.
+    - Provide an example about a question that must use dummy node, **not just copy a head node.** Then it should be [MergeTwoSortedLists](MergeTwoSortedLists.md).
   - Pointer movement questions: use slow and fast pointers.
 
 ## Category
 
 - LinkedList
   - Question list
+    - [MergeTwoSortedLists](MergeTwoSortedLists.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList2](ReverseLinkedList2.md) ![hard][hard] ![star][star]
     - [RotateList](RotateList.md) ![hard][hard] ![must-have][must-have] ![recommended][recommended] ![star][star]
+    - [ReorderList](ReorderList.md) 
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
 

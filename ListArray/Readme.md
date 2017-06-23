@@ -28,6 +28,7 @@
   - Think about what information we need to keep (normally it's dummy node). **Include all nodes that are affected in a same method.**
     - Adding a dummy node before the head node, and reset the head node as dummy node. In this way, we regard the dummy node as a part of the whole list.
     - We do need to include dummy node, but we will never run our algorithms on dummy node, it's just used to maintain a link to head node. Because dummy node is based on this **unchanged** rule, so we can do whatever we want on nodes behind dummy.
+  - Pointer movement questions: use slow and fast pointers.
 
 ## Category
 
@@ -35,6 +36,7 @@
   - Question list
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList2](ReverseLinkedList2.md) ![hard][hard] ![star][star]
+    - [RotateList](RotateList.md) ![hard][hard] ![must-have][must-have] ![recommended][recommended] ![star][star]
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
 
@@ -45,6 +47,7 @@
   - Don't use one variable name to denote multiple meanings.
 - Dummy node will not change its position.
 - `while (pos < num)`, so at the end, the condition should be `pos == num`.
+- Just think the dummy node as a node whose `index` is 0.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

@@ -39,7 +39,7 @@
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList2](ReverseLinkedList2.md) ![hard][hard] ![star][star]
     - [RotateList](RotateList.md) ![hard][hard] ![must-have][must-have] ![recommended][recommended] ![star][star]
-    - [ReorderList](ReorderList.md) 
+    - [ReorderList](ReorderList.md) ![hard][hard] ![must-have][must-have] ![recommended][recommended] ![star][star]
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
 
@@ -51,6 +51,8 @@
 - Dummy node will not change its position.
 - `while (pos < num)`, so at the end, the condition should be `pos == num`.
 - Just think the dummy node as a node whose `index` is 0.
+- Normally we would choose `ListNode temp = head.next` to cache a temporary value before we change `head.next`;
+- The `count = 0` in **count < length / 2** is based on dummy node, which means the starting node should be dummy node.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

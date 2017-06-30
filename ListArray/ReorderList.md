@@ -16,10 +16,13 @@ Three points here:
 - Dummy node is used to preserve head node when we need to traverse this list.
 - Dummy node is used to construct a linked list when we don't know which node could be the head node.
 
+BTW, use for loop to move forward steps.
+
 ## Code
 
 ```java
 public void reorderList(ListNode head) {
+    // 还是写复杂了啊!!! 不要盲目使用dummy node, 还是要把整个过程给拆开来才行.
     if (head == null) {
         return;
     }

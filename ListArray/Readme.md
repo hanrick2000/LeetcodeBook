@@ -35,6 +35,7 @@
 
 - LinkedList
   - Question list
+    - [InsertIntoCyclicSortedList](InsertIntoCyclicSortedList.md) ![medium][medium] ![must-have][must-have] ![star][star]
     - [MergeTwoSortedLists](MergeTwoSortedLists.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList](ReverseLinkedList.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [ReverseLinkedList2](ReverseLinkedList2.md) ![hard][hard] ![star][star]

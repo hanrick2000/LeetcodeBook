@@ -43,6 +43,7 @@
     - [ReorderList](ReorderList.md) ![hard][hard] ![must-have][must-have] ![recommended][recommended] ![star][star]
     - [ReverseNodesInKGroup](ReverseNodesInKGroup.md) ![hard][hard] ![recommended][recommended] ![must-have][must-have] ![star][star]
     - [PartitionList](PartitionList.md) ![easy][easy] ![recommended][recommended] ![star][star]
+    - [LinkedListCycle](LinkedListCycle.md)
 
 ## Notes
 

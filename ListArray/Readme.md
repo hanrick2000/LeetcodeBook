@@ -47,6 +47,7 @@
 - Array
   - Subarray
     - [SubarraySum](SubarraySum.md) ![medium][medium] ![must-have][must-have] ![recommended][recommended] ![star][star]
+    - [MaximumSubrray](MaximumSubrray.md) ![easy][easy] ![must-have][must-have] ![star][star]
 
 ## Notes
 
@@ -58,6 +59,10 @@
 - Just think the dummy node as a node whose `index` is 0.
 - Normally we would choose `ListNode temp = head.next` to cache a temporary value before we change `head.next`;
 - The `count = 0` in **count < length / 2** is based on dummy node, which means the starting node should be dummy node.
+- Sorting algorithms
+  - Heap sort
+  - Merge sort
+  - Quick sort
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

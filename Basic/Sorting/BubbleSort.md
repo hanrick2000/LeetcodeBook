@@ -20,7 +20,7 @@ Worst case is O(n^2), the array is reverse sorted. (n-1 + n-2 + ... + 1). Best c
 
 ```java
 // My bubble sort!!!
-public void sortIntegers2(int[] A) {
+public void sortIntegers(int[] A) {
     // bubble sort, each time bubble the biggest number to last pos
     for (int i = 0; i < A.length; i++) {
         int max = Integer.MIN_VALUE;
@@ -48,7 +48,7 @@ private void swap(int i, int j, int[] A) {
 // moved to last.
 // 记住是 towards last position, 简直太形象了, 就是一堆气泡在往上冒, 所以其实有可能在过程中就已经 sort 结束了.
 // 但是如果一上来就遇见最大的, 那就 sort 不了其他点了. 可能就会慢一些.
-public void sortIntegers2(int[] A) {
+public void sortIntegers(int[] A) {
     // a better bubble sort
     // i represents the ith bubble time. So there will be length - 1 bubbles.
     for (int i = 0; i < A.length - 1; i++) {

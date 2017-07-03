@@ -18,8 +18,14 @@
 
 - Merge sort
 - Quick sort
+  - [QuickSort](QuickSort.md) ![hard][hard] ![must-have][must-have] ![easy][easy] 
 - Other sort
   - [BubbleSort](BubbleSort.md) ![easy][easy] ![must-have][must-have] ![star][star]
+
+## Notes
+
+- Merge sort needs extra space, but quick sort is an in-place algorithm.
+- Quick sort can be implemented easily using this [solution](QuickSort.md), but it can not select correct pivot index or put pivot at the right mid position. So we need this, another partition algorithm.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

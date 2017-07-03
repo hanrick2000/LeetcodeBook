@@ -24,6 +24,8 @@ Worst case is that each time we choose the min or max pivot.
 
 The key point is that how to partition.
 
+这个快排是可以排, 但是有个漏洞啊, 你的 pivot 实际上的这个 element 可能最后并不在中间, 而是混在了左边或者右边里, 那这样用 quick select 就不行了. 尝试了在此版本基础上去做 quick select, 但是情况太多了, 没有意义. 那这个算法没有普适性啊, 只是说给我的quick select 做了个引子, 因为我最后需要的还是
+
 ## Code
 
 ```java

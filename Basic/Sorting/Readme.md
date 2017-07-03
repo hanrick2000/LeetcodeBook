@@ -18,7 +18,8 @@
 
 - Merge sort
 - Quick sort
-  - [QuickSort](QuickSort.md) ![hard][hard] ![must-have][must-have] ![easy][easy] 
+  - [QuickSort](QuickSort.md) ![hard][hard] ![must-have][must-have] ![star][star]
+  - [Median](Median.md) ![hard][hard] ![must-have][must-have] ![star][star]
 - Other sort
   - [BubbleSort](BubbleSort.md) ![easy][easy] ![must-have][must-have] ![star][star]
 

@@ -49,6 +49,8 @@
     - [SubarraySum](SubarraySum.md) ![medium][medium] ![must-have][must-have] ![recommended][recommended] ![star][star]
     - [MaximumSubrray](MaximumSubrray.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [CopyListWithRandomPointer](CopyListWithRandomPointer.md) ![easy][easy] ![star][star]
+    - [SubarraySumClosest](SubarraySumClosest.md) ![hard][hard] ![must-have][must-have]
+    - [SortList](SortList.md) 
 
 ## Notes
 

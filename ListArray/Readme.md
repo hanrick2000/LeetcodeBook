@@ -50,7 +50,9 @@
     - [MaximumSubrray](MaximumSubrray.md) ![easy][easy] ![must-have][must-have] ![star][star]
     - [CopyListWithRandomPointer](CopyListWithRandomPointer.md) ![easy][easy] ![star][star]
     - [SubarraySumClosest](SubarraySumClosest.md) ![hard][hard] ![must-have][must-have]
-    - [SortList](SortList.md) 
+    - [SortList](SortList.md) ![hard][hard] ![must-have][must-have]
+  - Pointer
+    - [MedianOfTwoSortedArrays](MedianOfTwoSortedArrays.md) ![hard][hard] ![star][star]
 
 ## Notes
 
@@ -66,6 +68,8 @@
   - Heap sort
   - Merge sort
   - Quick sort
+- Array
+  - Partition is always the hardest part for me, but it is a common problem in array category.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

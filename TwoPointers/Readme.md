@@ -12,11 +12,14 @@
 
 ## Category
 
-### Quick select
+### Partition
 
 - [KthLargestElement](KthLargestElement.md) ![hard][hard] ![must-have][must-have] ![star][star]
+- [PartitionArray](PartitionArray.md) ![must-have][must-have]
 
+### Two sum
 
+- [TwoSumDataStructure](TwoSumDataStructure.md) ![must-have][must-have]
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

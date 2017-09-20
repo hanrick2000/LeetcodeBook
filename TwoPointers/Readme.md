@@ -16,6 +16,7 @@
 
 - [KthLargestElement](KthLargestElement.md) ![hard][hard] ![must-have][must-have] ![star][star]
 - [PartitionArray](PartitionArray.md) ![must-have][must-have]
+- [SortColors](SortColors.md) ![must-have][must-have] ![hard][hard]
 
 ### Two sum
 

@@ -29,6 +29,10 @@
 
 Because HashMap is about reducing running time based on the value content, and this question is exactly about value sum.
 
+- For different direction pointers, how do we choose end condition?
+
+It depends. If you are just move left and right pointers one step by step, then it's easier, `while(left < right)` should be sufficient. But if you are moving by multiple steps or calculating steps by yourself, then there could be more edge cases.
+
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg
 [easy]: https://jaywcjlove.github.io/sb/ico/min-free.svg

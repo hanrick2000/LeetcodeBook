@@ -11,7 +11,7 @@ return [1, 2]
 
 ## Analysis
 
-Simply use two pointers.
+Simply use two pointers. But the idea behind this is that, every time we add up the smallest and biggest numbers in the array. If the current sum is greater than target, then we know that even add the smallest number we are too big, so we should reduce the biggest number, and move right pointer. Left pointer is similar.
 
 ## Code
 

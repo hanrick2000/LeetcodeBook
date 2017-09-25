@@ -17,6 +17,7 @@
 - [KthLargestElement](KthLargestElement.md) ![hard][hard] ![must-have][must-have] ![star][star]
 - [PartitionArray](PartitionArray.md) ![must-have][must-have]
 - [SortColors](SortColors.md) ![must-have][must-have] ![hard][hard]
+- [RemoveDuplicateNumbersInArray](RemoveDuplicateNumbersInArray.md) ![easy][easy]
 
 ### Two sum
 
@@ -32,6 +33,11 @@ Because HashMap is about reducing running time based on the value content, and t
 - For different direction pointers, how do we choose end condition?
 
 It depends. If you are just move left and right pointers one step by step, then it's easier, `while(left < right)` should be sufficient. But if you are moving by multiple steps or calculating steps by yourself, then there could be more edge cases.
+
+- What are the common tricks in array?
+
+1. HashMap
+1. Sort
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

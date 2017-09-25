@@ -21,6 +21,13 @@
 ### Two sum
 
 - [TwoSumDataStructure](TwoSumDataStructure.md) ![must-have][must-have]
+- [TwoSumInputArraySorted](TwoSumInputArraySorted.md) ![easy][easy]
+
+## Notes
+
+- Why can we use HashMap to reduce running time and easily solve two sum?
+
+Because HashMap is about reducing running time based on the value content, and this question is exactly about value sum.
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

@@ -18,6 +18,8 @@ Use similar idea from combination sum by just choosing a representative for the 
 
 Only when we have both pointers pointing to duplicates, we need to move them to a non duplicate location. For other two conditions, if current < target, then just move left one step further, even it's duplicate, it's still smaller than target, so we will move it again.
 
+Also one edge case could be that 11 + 11 = 22.
+
 ## Code
 
 ```java

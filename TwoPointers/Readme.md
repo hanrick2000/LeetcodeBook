@@ -24,6 +24,7 @@
 - [TwoSumDataStructure](TwoSumDataStructure.md) ![must-have][must-have]
 - [TwoSumInputArraySorted](TwoSumInputArraySorted.md) ![easy][easy]
 - [TwoSumUniquePairs](TwoSumUniquePairs.md) ![easy][easy] ![must-have][must-have]
+- [3Sum](3Sum.md) ![medium][medium] ![must-have][must-have]
 
 ## Notes
 

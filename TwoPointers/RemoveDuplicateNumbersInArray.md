@@ -1,4 +1,4 @@
-# [RemoveDuplicateNumbersInArray]()
+# [RemoveDuplicateNumbersInArray](http://lintcode.com/en/problem/remove-duplicate-numbers-in-array/)
 
 ## Question
 

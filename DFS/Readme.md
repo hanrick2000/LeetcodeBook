@@ -75,6 +75,9 @@
 - Actually if we don't optimize operations insied DFS for loop from O(n) to O(1), it's not that big deal. Because the main part of time complexity is 2^n or n!.
 - **If we want to use HashMap to map Integer to Integer, then we can probably just use an array to do the mapping.**
 - DFS does not need to have backtracking like number of islands, but if the question is about finding paths, then we need DFS to do backtracking.
+- What is the key to problems like removing duplicate elements?
+
+  Choose a representative like 1' or 1''.
 
 ## Appendix
 

@@ -24,9 +24,14 @@
 - [TwoSumDataStructure](TwoSumDataStructure.md) ![must-have][must-have]
 - [TwoSumInputArraySorted](TwoSumInputArraySorted.md) ![easy][easy]
 - [TwoSumUniquePairs](TwoSumUniquePairs.md) ![easy][easy] ![must-have][must-have]
+- [TwoSumLessThanOrEqualTo](TwoSumLessThanOrEqualTo.md) ![easy][easy]
 - [3Sum](3Sum.md) ![medium][medium] ![must-have][must-have]
 
 ## Notes
+
+- Most generally, for questions that have two or more variables, how do we do?
+
+  NOTE: We can loop through one variable, and see how the second variable changes.
 
 - Why can we use HashMap to reduce running time and easily solve two sum?
 

@@ -77,7 +77,8 @@
 - DFS does not need to have backtracking like number of islands, but if the question is about finding paths, then we need DFS to do backtracking.
 - What is the key to problems like removing duplicate elements?
 
-  Choose a representative like 1' or 1''.
+  1. Choose a representative like 1' or 1''.
+  1. Use continue.
 
 ## Appendix
 

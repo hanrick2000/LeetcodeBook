@@ -24,6 +24,8 @@ Such questions you have to find the meaning of your traversal. For this question
 
 Also, we should be able to guess the solution by estimating the running time, the brute force solution is O(n^3) for this question, so the optimal one could be O(n^2).
 
+This can actually be regarded as a follow-up to two sum unique pairs, because it's involved with removing duplicates. **Any time when we want to remove duplicates, we need to consider about using continue.**
+
 ## Code
 
 ```java

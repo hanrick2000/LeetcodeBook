@@ -25,6 +25,7 @@
 - [TwoSumInputArraySorted](TwoSumInputArraySorted.md) ![easy][easy]
 - [TwoSumUniquePairs](TwoSumUniquePairs.md) ![easy][easy] ![must-have][must-have]
 - [TwoSumLessThanOrEqualTo](TwoSumLessThanOrEqualTo.md) ![easy][easy]
+- [TwoSumClosest](TwoSumClosest.md) ![easy][easy]
 - [3Sum](3Sum.md) ![medium][medium] ![must-have][must-have]
 
 ## Notes
@@ -45,6 +46,10 @@
 
   1. HashMap
   1. Sort
+
+- Why we can reduce O(n^2) to O(n) sometime?
+
+  Because we are doing aggregation on result data. A simple example is [TwoSumLessThanOrEqualTo](TwoSumLessThanOrEqualTo.md).
 
 [must-have]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
 [recommended]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg

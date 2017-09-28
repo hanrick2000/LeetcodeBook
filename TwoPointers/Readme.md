@@ -26,6 +26,7 @@
 - [TwoSumUniquePairs](TwoSumUniquePairs.md) ![easy][easy] ![must-have][must-have]
 - [TwoSumLessThanOrEqualTo](TwoSumLessThanOrEqualTo.md) ![easy][easy]
 - [TwoSumClosest](TwoSumClosest.md) ![easy][easy]
+- [TwoSumDifferenceEqual](TwoSumDifferenceEqual.md) ![medium][medium]
 - [3Sum](3Sum.md) ![medium][medium] ![must-have][must-have]
 
 ## Notes
